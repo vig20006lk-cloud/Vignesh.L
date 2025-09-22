@@ -1,0 +1,72 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx}
+\usepackage{parskip}
+\usepackage{hyperref}
+\usepackage{titlesec}
+
+% Section style
+\titleformat{\section}{\large\bfseries}{}{0em}{}[\titlerule]
+
+\begin{document}
+
+%==========================
+% Profile Photo + Name
+%==========================
+\begin{center}
+    % Load profile photo (replace with your file name if different)
+    \includegraphics[width=3.5cm,height=3.5cm,keepaspectratio]{profile.jpg}\\[0.5cm]
+    
+    {\Huge \textbf{L. Vignesh}}\\[6pt]
+    \href{tel:+919080416731}{+91 9080416731} \,|\, 
+    \href{mailto:vig20006lk@gmail.com}{vig20006lk@gmail.com} \,|\, 
+    \href{https://www.linkedin.com/in/vigneshlk006}{linkedin.com/in/vigneshlk006}
+\end{center}
+
+\vspace{0.5cm}
+
+%==========================
+% Career Objective
+%==========================
+\section*{Career Objective}
+Aspiring Computer Science Engineer seeking a role as a Python and Full Stack Developer to build scalable and efficient software solutions.
+
+%==========================
+% Top Skills
+%==========================
+\section*{Top Skills}
+\begin{itemize}
+    \item Python
+    \item HTML
+    \item CSS
+    \item JavaScript
+\end{itemize}
+
+%==========================
+% Certifications
+%==========================
+\section*{Certifications}
+\begin{itemize}
+    \item Full Stack Developer
+    \item Junior Typist
+\end{itemize}
+
+%==========================
+% Languages
+%==========================
+\section*{Languages}
+\begin{itemize}
+    \item Tamil
+    \item English
+\end{itemize}
+
+%==========================
+% Interests
+%==========================
+\section*{Interests}
+\begin{itemize}
+    \item Web Development
+    \item Problem Solving
+\end{itemize}
+
+\end{document}
